@@ -52,15 +52,10 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("brown.mp3");
-soundArray.push(ambientSound);
-ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
-
 export var adventureMusic = new soundFile("115 - Made with Clipchamp.m4a");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = -9;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
