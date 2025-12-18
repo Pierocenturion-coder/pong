@@ -60,4 +60,4 @@ adventureMusic.player.volume.value = -9;
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -16;
+villageMusic.player.volume.value = -9;
